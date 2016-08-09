@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="git github hexo next," />
 
 
 
@@ -92,7 +92,7 @@
 安装hexo123$ npm install -g hexo-cli //安装hexo组件
 建立站点==============安装 Hexo 完成后，打开要安装的文件夹目录，右键运行git命令行123$ hexo init初始化hexo所需的文件">
 <meta property="og:type" content="article">
-<meta property="og:title" content="my blog">
+<meta property="og:title" content="hexo-next-github 搭建">
 <meta property="og:url" content="http://yoursite.com/2016/08/09/my-blog/index.html">
 <meta property="og:site_name" content="我的博客">
 <meta property="og:description" content="安装hexo=============详细配置参考：https://hexo.io/zh-cn/docs/
@@ -102,9 +102,9 @@
 
 安装hexo123$ npm install -g hexo-cli //安装hexo组件
 建立站点==============安装 Hexo 完成后，打开要安装的文件夹目录，右键运行git命令行123$ hexo init初始化hexo所需的文件">
-<meta property="og:updated_time" content="2016-08-09T06:12:47.858Z">
+<meta property="og:updated_time" content="2016-08-09T08:26:12.961Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="my blog">
+<meta name="twitter:title" content="hexo-next-github 搭建">
 <meta name="twitter:description" content="安装hexo=============详细配置参考：https://hexo.io/zh-cn/docs/
 安装前提
 安装node.js
@@ -134,7 +134,7 @@
 
   <link rel="canonical" href="http://yoursite.com/2016/08/09/my-blog/"/>
 
-  <title> my blog | 我的博客 </title>
+  <title> hexo-next-github 搭建 | 我的博客 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -284,7 +284,7 @@
             
             
               
-                my blog
+                hexo-next-github 搭建
               
             
           </h1>
@@ -301,6 +301,25 @@
             </time>
           </span>
 
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/文档记录/" itemprop="url" rel="index">
+                    <span itemprop="name">文档记录</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
           
 
           
@@ -355,16 +374,40 @@
 <li><p>设置代码高亮的着色</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">highlight_theme: night eighties</div></pre></td></tr></table></figure>
 </li>
+<li><p>设置头像</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">avatar:/images/20160809/ariya.jpg</div></pre></td></tr></table></figure>
+</li>
 </ul>
 <h1 id="存在的一些问题"><a href="#存在的一些问题" class="headerlink" title="存在的一些问题"></a>存在的一些问题</h1><p>===================</p>
-<h2 id="分类页面需要自己配置"><a href="#分类页面需要自己配置" class="headerlink" title="分类页面需要自己配置"></a>分类页面需要自己配置</h2><p>需要在source文件夹下新建categories文件夹，并创建index.md，将type类型改为categories<br>、、、</p>
-<hr>
-<p>title: categories<br>date: 2016-08-09 11:37:15<br>tags:</p>
-<h2 id="type-“categories”"><a href="#type-“categories”" class="headerlink" title="type: “categories”"></a>type: “categories”</h2><p>、、、</p>
-<p>同理标签页面，需要在source文件夹下新建tags文件夹，并创建index.md，将type类型改为tags</p>
-<h2 id="、、、"><a href="#、、、" class="headerlink" title="、、、"></a>、、、</h2><p>title: 404<br>date: 2016-08-09 11:37:15</p>
-<h2 id="type-“tags”"><a href="#type-“tags”" class="headerlink" title="type: “tags”"></a>type: “tags”</h2><p>、、、</p>
+<h2 id="分类页面需要自己配置"><a href="#分类页面需要自己配置" class="headerlink" title="分类页面需要自己配置"></a>分类页面需要自己配置</h2><p>需要在source文件夹下新建categories文件夹，并创建index.md，将type类型改为categories<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">---</div><div class="line"></div><div class="line">title: categories</div><div class="line">date: 2016-08-09 11:37:15</div><div class="line">tags:</div><div class="line">type: &quot;categories&quot;</div><div class="line">---</div></pre></td></tr></table></figure></p>
+<p>同理标签页面，需要在source文件夹下新建tags文件夹，并创建index.md，将type类型改为tags<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">---</div><div class="line"></div><div class="line">title: 404</div><div class="line">date: 2016-08-09 11:37:15</div><div class="line">type: &quot;tags&quot;</div><div class="line">---</div></pre></td></tr></table></figure></p>
 <p>404页面直接在source文件夹下新建 404.md,填写你需要的内容即可<br><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;!DOCTYPE HTML&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">"content-type"</span> <span class="attr">content</span>=<span class="string">"text/html;charset=utf-8;"</span>/&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">"X-UA-Compatible"</span> <span class="attr">content</span>=<span class="string">"IE=edge,chrome=1"</span> /&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"robots"</span> <span class="attr">content</span>=<span class="string">"all"</span> /&gt;</span></div><div class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"robots"</span> <span class="attr">content</span>=<span class="string">"index,follow"</span>/&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></div><div class="line"></div><div class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span> <span class="attr">src</span>=<span class="string">"http://www.qq.com/404/search_children.js"</span></span></div><div class="line">        <span class="attr">charset</span>=<span class="string">"utf-8"</span> <span class="attr">homePageUrl</span>=<span class="string">"your site url "</span></div><div class="line">        <span class="attr">homePageName</span>=<span class="string">"回到我的主页"</span>&gt;<span class="undefined"></span></div><div class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line"></div><div class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></div></pre></td></tr></table></figure></p>
+<h1 id="配置github"><a href="#配置github" class="headerlink" title="配置github"></a>配置github</h1><p>===============<br>1、安装hexo部署到github所需要的组件<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo-deployer-git --save</div></pre></td></tr></table></figure></p>
+<p>2、创建 一个 你的用户名.github.io 的仓库</p>
+<p>3、打开站点配置文件_config.yml<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"># Deployment</div><div class="line">## Docs: https://hexo.io/docs/deployment.html  </div><div class="line">deploy:</div><div class="line">  type: git    #部署类型, 本文使用Github</div><div class="line">  repository: https://github.com/你的用户名/你的用户名.github.io.git  #部署的仓库的SSH</div><div class="line">  branch: master   #部署分支,一般使用master主分支</div></pre></td></tr></table></figure></p>
+<p>4、设置ssh key<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">//查看当前ssh文件，如果存在的话，直接删除.ssh文件夹里面所有文件</div><div class="line">ls -al ~/.ssh</div><div class="line">//生成ssh密钥</div><div class="line">ssh-keygen -t rsa -C &quot;你的邮箱账号&quot;</div><div class="line">//提示要你输入passphrase 直接回车</div><div class="line"></div><div class="line">//打开进程</div><div class="line">eval `ssh-agent -s`</div><div class="line"></div><div class="line">//添加密钥</div><div class="line">ssh-add ~/.ssh/id_rsa</div><div class="line"></div><div class="line">//将.ssh生成的id_rsa.pub文件内容复制到github上的Deploy keys中,并选择可写入</div></pre></td></tr></table></figure></p>
+<p>5、生成静态页面并部署上github</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div><div class="line">$ hexo deploy</div><div class="line"></div><div class="line">INFO  Deploying: git</div><div class="line">INFO  Clearing .deploy_git folder...</div><div class="line">INFO  Copying files from public folder...</div><div class="line">warning: LF will be replaced by CRLF in 2016/08/09/my-blog/index.html.</div><div class="line">The file will have its original line endings in your working directory.</div><div class="line">On branch master</div><div class="line">nothing to commit, working tree clean</div><div class="line">Branch master set up to track remote branch master from git@github.com:diamond350/diamond350.github.io.git.</div><div class="line">To git@github.com:dia/dia.github.io.git</div><div class="line"> * [new branch]      HEAD -&gt; master</div><div class="line">INFO  Deploy done: git</div></pre></td></tr></table></figure>
+<p>6、提示<br>因为之前已经生成过一次密钥，虽然删除了.ssh文件夹里面所有文件,但总是被原来的ssh账号拒绝<br>google后的结果换一种url写法<br><a href="https://help.github.com/articles/changing-a-remote-s-url/" target="_blank" rel="external">https://help.github.com/articles/changing-a-remote-s-url/</a></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">If you&apos;re updating to use HTTPS, your URL might look like:</div><div class="line"></div><div class="line">https://github.com/USERNAME/OTHERREPOSITORY.git</div><div class="line"></div><div class="line">//用ssh部署上去的，用这种url形式，所以如果发现部署被另一个用户拒绝，可以尝试用这个url</div><div class="line">If you&apos;re updating to use SSH, your URL might look like:</div><div class="line"></div><div class="line">git@github.com:USERNAME/OTHERREPOSITORY.git</div></pre></td></tr></table></figure>
+<h1 id="使用心得"><a href="#使用心得" class="headerlink" title="使用心得"></a>使用心得</h1><ul>
+<li>生成一篇空白文章</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new &apos;文章名&apos;</div></pre></td></tr></table></figure>
+<ul>
+<li>文章相关属性设置</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">在最顶部设置</div><div class="line">---</div><div class="line">//文章分类</div><div class="line">categories:</div><div class="line">- Diary</div><div class="line">//文章标签</div><div class="line">tags:</div><div class="line">- PS3</div><div class="line">- Games</div><div class="line">---</div></pre></td></tr></table></figure>
+<ul>
+<li>图片引入<br>在source下建立images文件夹，将图片存放在这</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">![&apos;ariya&apos;](/images/20160809/ariya.jpg)</div></pre></td></tr></table></figure>
+<ul>
+<li><p>配置文件属性和值之间要有空格，不然会报错</p>
+</li>
+<li><p>绑定域名</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">//在source下建立文件名为CNAME的文件，在里面填写你要绑定的域名</div><div class="line"></div><div class="line">www.yourname.com</div></pre></td></tr></table></figure></li>
+</ul>
 
       
     </div>
@@ -385,7 +428,27 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/git-github-hexo-next/" rel="tag">#git github hexo next</a>
+          
+        </div>
+      
 
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/08/08/github-tutorial/" rel="next" title="github-tutorial">
+                <i class="fa fa-chevron-left"></i> github-tutorial
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
       
 
       
@@ -442,7 +505,7 @@
       <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
-               src="/images/avatar.gif"
+               src="/images/20160809/ariya.jpg"
                alt="Panda" />
           <p class="site-author-name" itemprop="name">Panda</p>
           <p class="site-description motion-element" itemprop="description"></p>
@@ -450,13 +513,27 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">1</span>
+              <span class="site-state-item-count">2</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
 
           
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
 
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
           
 
         </nav>
@@ -482,7 +559,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#安装hexo"><span class="nav-number">1.</span> <span class="nav-text">安装hexo</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#安装前提"><span class="nav-number">1.1.</span> <span class="nav-text">安装前提</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装hexo-1"><span class="nav-number">1.2.</span> <span class="nav-text">安装hexo</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#建立站点"><span class="nav-number">2.</span> <span class="nav-text">建立站点</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#运行服务器"><span class="nav-number">3.</span> <span class="nav-text">运行服务器</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#更改主题"><span class="nav-number">4.</span> <span class="nav-text">更改主题</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#安装next"><span class="nav-number">4.1.</span> <span class="nav-text">安装next</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#配置文件参数配置"><span class="nav-number">4.2.</span> <span class="nav-text">配置文件参数配置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo站点配置"><span class="nav-number">4.2.1.</span> <span class="nav-text">hexo站点配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#next主题配置"><span class="nav-number">4.2.2.</span> <span class="nav-text">next主题配置</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#存在的一些问题"><span class="nav-number">5.</span> <span class="nav-text">存在的一些问题</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#分类页面需要自己配置"><span class="nav-number">5.1.</span> <span class="nav-text">分类页面需要自己配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#type-“categories”"><span class="nav-number">5.2.</span> <span class="nav-text">type: “categories”</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#、、、"><span class="nav-number">5.3.</span> <span class="nav-text">、、、</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#type-“tags”"><span class="nav-number">5.4.</span> <span class="nav-text">type: “tags”</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#安装hexo"><span class="nav-number">1.</span> <span class="nav-text">安装hexo</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#安装前提"><span class="nav-number">1.1.</span> <span class="nav-text">安装前提</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装hexo-1"><span class="nav-number">1.2.</span> <span class="nav-text">安装hexo</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#建立站点"><span class="nav-number">2.</span> <span class="nav-text">建立站点</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#运行服务器"><span class="nav-number">3.</span> <span class="nav-text">运行服务器</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#更改主题"><span class="nav-number">4.</span> <span class="nav-text">更改主题</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#安装next"><span class="nav-number">4.1.</span> <span class="nav-text">安装next</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#配置文件参数配置"><span class="nav-number">4.2.</span> <span class="nav-text">配置文件参数配置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo站点配置"><span class="nav-number">4.2.1.</span> <span class="nav-text">hexo站点配置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#next主题配置"><span class="nav-number">4.2.2.</span> <span class="nav-text">next主题配置</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#存在的一些问题"><span class="nav-number">5.</span> <span class="nav-text">存在的一些问题</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#分类页面需要自己配置"><span class="nav-number">5.1.</span> <span class="nav-text">分类页面需要自己配置</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#配置github"><span class="nav-number">6.</span> <span class="nav-text">配置github</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#使用心得"><span class="nav-number">7.</span> <span class="nav-text">使用心得</span></a></li></ol></div>
             
           </div>
         </section>
